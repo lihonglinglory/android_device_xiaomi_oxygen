@@ -26,4 +26,5 @@ service goodixfp /system/bin/goodixfp
     class late_start
     user system
     group system sdcard_rw
+    seclabel u:r:goodixfp:s0
     oneshot
